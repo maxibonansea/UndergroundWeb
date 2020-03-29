@@ -47,3 +47,8 @@
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
   }
+
+  /* Items: Imagen Main */
+  .item-inside-1 {
+    background-repeat: no-repeat;
+  }

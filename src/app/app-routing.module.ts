@@ -5,11 +5,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { PrincialComponent } from './pages/princial/princial.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
+import { SearchComponent } from './pages/search/search.component';
 
 const app_routes: Routes = [
     { path: 'home', component: PrincialComponent },
     { path: 'about', component: AboutComponent },
-    { path: 'item', component: ItemComponent },
+    { path: 'item/:id', component: ItemComponent },
+    { path: 'search/:termino', component: SearchComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
