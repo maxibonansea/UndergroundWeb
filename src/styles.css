@@ -1,3 +1,36 @@
+/* Estilos Propios */ 
+
+header{
+   /* background-image: url("assets/img/Fondo.jpg"); */
+   background-color: lightgray !important;
+   background-size: 100%;
+   /* color: red !important; */
+   /* text-shadow: 0px 0px 10px red; */
+   /* opacity: 0.5; */
+ }
+
+ body{  
+   background-image: url("assets/img/UG-Wallpaper2.jpg") !important;
+   background-color: lightgray;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position-y: center;
+ }
+
+ footer{
+   background-color: lightgray;
+   margin: unset !important;
+   padding-bottom: 2rem;
+   padding-top: 10.5rem;
+   padding: 25px;
+   max-width: 100%;
+   width: 100% !important;
+ }
+
+.rk-menu__item.active {
+  color: rgb(49, 49, 175);
+}
+
  /* SVG */
  svg path,
  svg rect{

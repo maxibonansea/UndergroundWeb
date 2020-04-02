@@ -2,6 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
+// Firebase
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from '../environments/environment';
+
 // Rutas
 import { AppRoutingModule } from './app-routing.module';
 
@@ -12,6 +17,7 @@ import { PrincialComponent } from './pages/princial/princial.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { SearchComponent } from './pages/search/search.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,9 +27,12 @@ import { SearchComponent } from './pages/search/search.component';
     PrincialComponent,
     AboutComponent,
     ItemComponent,
-    SearchComponent
+    SearchComponent,
+    HomeComponent
   ],
   imports: [
+    AngularFireModule.initializeApp(environment.firebase),
+ 	  AngularFirestoreModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule

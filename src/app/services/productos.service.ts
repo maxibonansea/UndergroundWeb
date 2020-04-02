@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Producto } from '../interfaces/producto.interface';
+import { AngularFirestore } from '@angular/fire/firestore';
+
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +13,8 @@ export class ProductosService {
   productos: Producto[] = [];
   productosFiltrados: Producto[] = []
 
-  constructor( private http: HttpClient ) { 
+  constructor( private http: HttpClient,
+               public db: AngularFirestore ) { 
     this.cargarProductos();
   }
 
@@ -66,11 +69,33 @@ export class ProductosService {
       const tituloLower = prod.titulo.toLocaleLowerCase();
       const marcaLower = prod.marca.toLocaleLowerCase();
 
-      if(tipoLower.indexOf(termino) >= 0 || tipoLower.indexOf(termino) >= 0 || marcaLower.indexOf(termino) >= 0) {
+      if(tipoLower.indexOf(termino) >= 0 || tituloLower.indexOf(termino) >= 0 || marcaLower.indexOf(termino) >= 0) {
         this.productosFiltrados.push( prod );
       }
     });
-    
+  }
+
+  createUser(value, avatar){
+    return this.db.collection('users').add({
+      name: value.name,
+      nameToSearch: value.name.toLowerCase(),
+      surname: value.surname,
+      age: parseInt(value.age),
+      avatar: avatar
+    });
+  }
+
+  nuevoProducto(value) {
+    return this.db.collection('productos').add({
+      categoria: value.categoria,
+      desc1: value.desc1,
+      marca: value.marca,
+      precio: value.precio,
+      producto: value.producto,
+      sexo: value.sexo,
+      subtitulo1: value.subtitulo1,
+      tipoProducto: value.tipoProducto,
+    })
   }
 
 }

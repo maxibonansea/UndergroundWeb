@@ -6,9 +6,11 @@ import { PrincialComponent } from './pages/princial/princial.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { SearchComponent } from './pages/search/search.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const app_routes: Routes = [
-    { path: 'home', component: PrincialComponent },
+    { path: 'home', component: HomeComponent },
+    { path: 'principal', component: PrincialComponent },
     { path: 'about', component: AboutComponent },
     { path: 'item/:id', component: ItemComponent },
     { path: 'search/:termino', component: SearchComponent },
