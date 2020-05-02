@@ -1,0 +1,32 @@
+{
+    "prod-1" : {
+      "descripcion" : "Los modelos Sage de Force One tienen unos centímetros más de base que proporcionan más altura. Conocidas como plataforma. Están compuesta de una capellada en cuero de gran durabilidad. unidad Air-sole que brinda amortiguación acompañado de suela completa de goma.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One sage black white",
+      "precioEfectivo" : 6000,
+      "precioLista" : 6290,
+      "talles" : "del 35 al 39 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-2" : {
+      "descripcion" : "Cuentan con la tecnologia air max como los modelos 1 en suela (goma) y mediasuela (espuma). capellada de pana en varios colores y tres tipos de cordones.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Air Max 97/1 Sean Wotherspoon",
+      "precioEfectivo" : 6550,
+      "precioLista" : 6890,
+      "talles" : "del 38 al 43 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-3" : {
+      "descripcion" : "Esta Force One ultraliviana con capellada en cuero sintético con diseño de pipa desfasada. unidad Air-sole que brinda exelente amortiguación por su suela completa de espuma con refuerzos de goma en zona de mayor desgaste.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One Jester B/W",
+      "precioEfectivo" : 5700,
+      "precioLista" : 5900,
+      "talles" : "del 35 al 39 Arg",
+      "tipoProducto" : "Sneakers"
+    }
+  }
