@@ -179,7 +179,7 @@ body {
   height: 24px;
   left: 2.5vw;
   position: absolute;
-  top: 2.7rem;
+  top: 12px;
   width: 16px;
   z-index: 300;
 }
@@ -1985,7 +1985,7 @@ body {
   padding-bottom: 4.2rem;
 }
 .rk-menu__sub {
-  background-color: white;
+  background-color: lightgray;
   left: 0;
   list-style: none;
   margin: 0;

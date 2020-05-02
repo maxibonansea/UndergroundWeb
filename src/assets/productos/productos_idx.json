@@ -1,0 +1,44 @@
+[ 
+	{
+		"cod" : "prod-1",
+		"estado" : "Publicado",
+		"fechaPublicacion" : 20200407,
+		"marca" : "Nike",
+		"modelo" : "Force One sage black white",
+		"novedad" : true,
+		"paginaPrincipal" : true,
+		"precioEfectivo" : 6000,
+		"precioLista" : 6290,
+		"sale" : false,
+		"tipoProducto" : "Sneakers",
+		"url" : "prod-1"
+	},
+	{
+		"cod" : "prod-2",
+		"estado" : "Publicado",
+		"fechaPublicacion" : 20200413,
+		"marca" : "Nike",
+		"modelo" : "Air Max 97/1 Sean Wotherspoon",
+		"novedad" : false,
+		"paginaPrincipal" : true,
+		"precioEfectivo" : 6550,
+		"precioLista" : 6890,
+		"sale" : false,
+		"tipoProducto" : "Sneakers",
+		"url" : "prod-2"
+	} ,
+	{
+		"cod" : "prod-3",
+		"estado" : "Publicado",
+		"fechaPublicacion" : 20200502,
+		"marca" : "Nike",
+		"modelo" : "Force One Jester B/W",
+		"novedad" : false,
+		"paginaPrincipal" : true,
+		"precioEfectivo" : 5700,
+		"precioLista" : 5900,
+		"sale" : false,
+		"tipoProducto" : "Sneakers",
+		"url" : "prod-3"
+	}
+]

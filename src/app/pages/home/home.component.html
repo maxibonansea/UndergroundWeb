@@ -1,76 +1,76 @@
-<section style="padding-top: 10px;">
+<section>
 
-    <!-- SLIDER -->
-    <div id="rg-gallery" class="rg-gallery">
-        <div class="rg-thumbs">
-            <!-- Elastislide Carousel Thumbnail Viewer -->
-            <div class="es-carousel-wrapper">
-                <div class="es-nav">
-                    <span class="es-nav-prev">Previous</span>
-                    <span class="es-nav-next">Next</span>
+    <!-- CAROUSEL -->
+    <div id="carouselHome" class="carousel slide carousel-fade" data-ride="carousel"
+         *ngIf="!_productosService.cargando" >
+        <ol class="carousel-indicators">
+            <ng-container *ngFor="let producto of _productosService.productos;let p = index">
+                <li data-target="#carouselExampleCaptions" [attr.data-slide-to]="p" *ngIf="producto.paginaPrincipal"></li>
+            </ng-container>
+        </ol>
+        <div class="carousel-inner">
+            <ng-container *ngFor="let producto of _productosService.productos; let i = index; let isFirst = first">
+            
+                <div class="carousel-item"    *ngIf="producto.paginaPrincipal"
+                    [ngClass]="{active:isFirst}" style="cursor: pointer"
+                    
+                    [routerLink]="['/item', producto.cod ]" >
+                    <img class="img-fluid rounded mx-auto d-block" src="assets/productos/{{ producto.url }}/home.jpg" />
+                    <div class="carousel-caption d-block" style="cursor: pointer"
+                        [routerLink]="['/item', producto.cod ]" >
+                        <h4>{{ producto.marca }}
+                            <span class="badge badge-danger" *ngIf="producto.novedad"> NEW</span>
+                            <span class="badge badge-warning" *ngIf="producto.sale"> SALE</span>
+                        </h4>
+                        <p>{{ producto.modelo }}</p>
+                    </div>
                 </div>
-                <div class="es-carousel">
-                    <ul>
-                        <li>
-                            <a href="#"><img src="assets/images/thumbs/1.jpg" data-large="assets/images/1.jpg" alt="image01" 
-                                data-description="Adidas XXXXXXXXXXXXXXXXXXXXXXXXX" /></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/images/thumbs/2.jpg" data-large="assets/images/2.jpg" alt="image02" 
-                                data-description="A plaintful story from a sistering vale" /></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/images/thumbs/3.jpg" data-large="assets/images/3.jpg" alt="image03" 
-                                data-description="A plaintful story from a sistering vale" /></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/images/thumbs/4.jpg" data-large="assets/images/4.jpg" alt="image04" 
-                                data-description="My spirits to attend this double voice accorded" /></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="assets/images/thumbs/5.jpg" data-large="assets/images/5.jpg" alt="image05" 
-                                data-description="And down I laid to list the sad-tuned tale" /></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- End Elastislide Carousel Thumbnail Viewer -->
-        </div><!-- rg-thumbs -->
-    </div><!-- rg-gallery -->
-    <!-- FIN SLIDER -->
+            </ng-container>
+        </div>
+        <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+    <!-- FIN CAROUSEL -->
 
     <br>
 
     <!-- CATEGORIAS DE PRODUCTOS -->
+    <div style="display: flex; justify-content: center; align-items: center;">
+        
+        <div class="categoria">
+            <a [routerLink]="['/principal']" class="rk-item ae-masonry__item">
+                <img src="assets/img/sneakers.jpg" alt="">
+                <div [routerLink]="['/principal']" class="item-meta">
+                    <h2>Sneakers</h2>
+                    <p>Adidas - Nike - Fila</p>
+                </div>
+            </a>
+        </div>
 
-    <div style="height: 500px; width: 30%; float: left; margin: 10px;">
-        <a [routerLink]="['/principal']" class="rk-item ae-masonry__item">
-            <img src="assets/img/sneakers.jpg" alt="">
-            <div [routerLink]="['/principal']" class="item-meta">
-                <h2>Sneakers</h2>
-                <p>Adidas - Nike - Fila</p>
-            </div>
-        </a>
+        <div class="categoria">
+            <a [routerLink]="['/principal']" class="rk-item ae-masonry__item">
+                <img src="assets/img/gorras.jpg" alt="">
+                <div [routerLink]="['/principal']" class="item-meta">
+                    <h2>Gorras</h2>
+                    <p>Goorin Boss</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="categoria">
+            <a [routerLink]="['/principal']" class="rk-item ae-masonry__item">
+                <img src="assets/img/casacas.jpg" alt="">
+                <div [routerLink]="['/principal']" class="item-meta">
+                    <h2>Casacas</h2>
+                    <p>NBA - NFL - MLB</p>
+                </div>
+            </a>
+        </div>
     </div>
-
-    <div style="height: 500px; width: 30%; float: left; margin: 10px;">
-        <a [routerLink]="['/principal']" class="rk-item ae-masonry__item">
-            <img src="assets/img/gorras.jpg" alt="">
-            <div [routerLink]="['/principal']" class="item-meta">
-                <h2>Gorras</h2>
-                <p>Goorin Boss</p>
-            </div>
-        </a>
-    </div>
-
-    <div style="height: 500px; width: 30%; float: left; margin: 10px;">
-        <a [routerLink]="['/principal']" class="rk-item ae-masonry__item">
-            <img src="assets/img/casacas.jpg" alt="">
-            <div [routerLink]="['/principal']" class="item-meta">
-                <h2>Casacas</h2>
-                <p>NBA - NFL - MLB</p>
-            </div>
-        </a>
-    </div>
-
 </section>

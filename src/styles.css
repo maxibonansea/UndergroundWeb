@@ -13,8 +13,8 @@ header{
    background-image: url("assets/img/UG-Wallpaper2.jpg") !important;
    background-color: lightgray;
    background-size: 100%;
-   background-repeat: no-repeat;
-   background-position-y: center;
+   /* background-repeat: no-repeat;
+   background-position-y: center; */
  }
 
  footer{
@@ -27,24 +27,131 @@ header{
    width: 100% !important;
  }
 
+ /* MENÚ */
+
 .rk-menu__item.active {
-  color: rgb(49, 49, 175);
+  color: gray
 }
 
-/* SLIDER */
-.rg-image img {
-  max-height: 400px !important;
+.rk-mobile-menu label{
+  padding-bottom: 15px !important;
+  padding-top: 18px !important;
+  top: 12px !important;
+ }
+
+ .rk-topbar{
+  padding-bottom: 15px;
+  padding-top: 15px;
+  height: 50px;
+ }
+
+ .rk-menu__sub{
+    height: 30px;
+ }
+
+ .rk-menu__sub a{
+   color: grey;
+   font-size: 16px;
+   /* font-weight: normal; */
+ }
+
+ .rk-menu__sub ul{
+   padding: 0px;
+ }
+
+/* PAGE - PRINCIPAL */
+
+/* CAROUSEL */
+
+#carouselHome {
+  max-height: 500px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+
+  position: relative;
+  padding: 20px 30px;
+  background: transparent url(assets/images/black.png) repeat top left;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  min-height: 20px;
 }
 
-.rg-image-wrapper {
-  height: 500px;
+.carousel-control-prev .carousel-control-next {
+  background: #000 !important;
+  opacity: 0.8 !important;
+  width: 40px !important;;
+  height: 100% !important;
+  border-radius: 0px 10px 10px 0px !important;
 }
 
-.rg-image-wrapper p {
-  font-size: 24px;
-  color: white;
-  font-weight: bold;
+.carousel-caption h4 {
+  text-shadow: 0px 0px 8px red;
 }
+
+.carousel-caption p {
+  text-shadow: 0px 0px 3px black
+}
+/* #carouselHome .carousel-item {
+  max-height: 400px;
+  max-width: 640px;
+  
+  display: inline-block; 
+} */
+
+
+ /* CATEGORIAS */
+
+ .categoria{
+  display: inline-block; 
+  height: 100%; 
+  width: 50%; 
+  margin: 25px;
+ }
+
+ /* FIN: PAGE - PRINCIPAL */
+
+
+ /* PAGE - ITEM */
+
+ .rk-portfolio-cover {
+     padding-bottom: 2.5rem;
+     padding-top: 250px;
+     height: 0px !important;
+ }
+
+ .top-fixed .rk-main {
+    padding-top: 6rem;
+  }
+
+  .au-pb-4 {
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+      color: white;
+      text-shadow: 0px 0px 8px black;
+  }
+/* PRESENTACIÓN FOTOS */
+  #carouselItems{
+    padding: 1.5rem;
+    border-width: 5px;
+    border-color: red;
+    margin-top: 20px;
+    border-style: inset;
+    border-radius: 15px;
+  }
+
+  .itemTextH1 {
+    text-shadow: 0px 0px 8px red;
+    color: gray;
+  }
+
+  .itemTextH2 {
+    text-shadow: 0px 0px 15px blue;
+    color: gray;
+  }
+/* FIN: PAGE - ITEM */
+
 
  /* SVG */
  svg path,
