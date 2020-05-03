@@ -3,7 +3,7 @@
       "descripcion" : "Los modelos Sage de Force One tienen unos centímetros más de base que proporcionan más altura. Conocidas como plataforma. Están compuesta de una capellada en cuero de gran durabilidad. unidad Air-sole que brinda amortiguación acompañado de suela completa de goma.",
       "estado" : "Publicado",
       "marca" : "Nike",
-      "modelo" : "Force One sage black white",
+      "modelo" : "Force One Sage Black White",
       "precioEfectivo" : 6000,
       "precioLista" : 6290,
       "talles" : "del 35 al 39 Arg",
@@ -27,6 +27,116 @@
       "precioEfectivo" : 5700,
       "precioLista" : 5900,
       "talles" : "del 35 al 39 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-4" : {
+      "descripcion" : "Los modelos Sage de Force One tienen unos centímetros más de base que proporcionan más altura. Conocidas como plataforma. Están compuesta de una capellada en cuero de gran durabilidad. unidad Air-sole que brinda amortiguación acompañado de suela completa de goma.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One Sage White",
+      "precioEfectivo" : 6000,
+      "precioLista" : 6290,
+      "talles" : "del 35 al 39 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-5" : {
+      "descripcion" : "Esta Force One ultraliviana con capellada en cuero sintético de 3 colores con diseño de pipa desfasada. unidad Air-sole que brinda exelente amortiguación por su suela completa de espuma con refuerzos de goma en zona de mayor desgaste.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One Jester SE",
+      "precioEfectivo" : 5700,
+      "precioLista" : 5900,
+      "talles" : "del 35 al 39 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-6" : {
+      "descripcion" : "Es la clásica Force One pero con pipas intercambiables de varios colores compuesta de una capellada en cuero de gran durabilidad. unidad Air-sole que brinda amortiguación acompañado de suela completa de goma.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One White",
+      "precioEfectivo" : 6000,
+      "precioLista" : 6290,
+      "talles" : "del 35 al 39 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-7" : {
+      "descripcion" : "La clásica Force One pero ultraliviana debito a otros materiales tales como el sistema flyknit (tejido) de gran transpirabilidad. unidad Air-sole que brinda exelente amortiguación por su suela completa de espuma con refuerzos en zona de mayor desgaste.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One Flyknit White",
+      "precioEfectivo" : 6000,
+      "precioLista" : 6290,
+      "talles" : "del 35 al 43 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-8" : {
+      "descripcion" : "Compuesta de una capellada en cuero de gran durabilidad. unidad Air-sole que brinda amortiguación acompañado de suela completa de goma.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One B/W",
+      "precioEfectivo" : 5150,
+      "precioLista" : 5390,
+      "talles" : "del 39 al 43 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-9" : {
+      "descripcion" : "Este modelo Force One lo caracteriza sus diversos parches y sus pipas con hologramas. capellada en cuero de gran durabilidad. unidad Air-sole que brinda amortiguación acompañado de suela completa de goma.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One Just do it White",
+      "precioEfectivo" : 6000,
+      "precioLista" : 6290,
+      "talles" : "del 39 al 43 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-10" : {
+      "descripcion" : "Este modelo Force One lo caracteriza sus diversos parches y sus pipas con hologramas. capellada en cuero de gran durabilidad. unidad Air-sole que brinda amortiguación acompañado de suela completa de goma.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One Just do it Orange",
+      "precioEfectivo" : 6000,
+      "precioLista" : 6290,
+      "talles" : "del 39 al 43 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-11" : {
+      "descripcion" : "Está es la clásica Force One pero compuesta de una capellada en gamuza y pipa reflectiva. unidad Air-sole que brinda amortiguación acompañado de suela completa de goma.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One Suede Black",
+      "precioEfectivo" : 6000,
+      "precioLista" : 6290,
+      "talles" : "del 39 al 43 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-12" : {
+      "descripcion" : "La linea Jelly compuesta de una capellada en cuero de gran durabilidad y las caracteriza su pipa compuesta de gel. unidad Air-sole que brinda amortiguación acompañado de suela completa de goma.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One Jelly",
+      "precioEfectivo" : 6000,
+      "precioLista" : 6290,
+      "talles" : "del 39 al 43 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-13" : {
+      "descripcion" : "Está es la clásica Force One de principios de los 80' compuesta de una capellada en cuero de gran durabilidad. unidad Air-sole que brinda amortiguación acompañado de suela completa de goma.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Force One White",
+      "precioEfectivo" : 6000,
+      "precioLista" : 6290,
+      "talles" : "del 39 al 43 Arg",
+      "tipoProducto" : "Sneakers"
+    },
+	"prod-14" : {
+      "descripcion" : "Compuesta por una parte superior con confeccion flyknit transpirable y elástica. Tecnología Vapormax en su parte inferior que ofrece máxima elasticidad y amortiguación. Suela reforzada con goma en los sectores de mayor desgaste.",
+      "estado" : "Publicado",
+      "marca" : "Nike",
+      "modelo" : "Vapormax 2 Flyknit Triple Black",
+      "precioEfectivo" : 5700,
+      "precioLista" : 5990,
+      "talles" : "del 39 al 43 Arg",
       "tipoProducto" : "Sneakers"
     }
   }
